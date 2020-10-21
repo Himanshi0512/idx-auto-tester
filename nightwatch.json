@@ -19,6 +19,7 @@
         "port": 4444,
         "cli_args": {
             "webdriver.chrome.driver": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+            "webdriver.gecko.driver": "node_modules/geckodriver/geckodriver.exe",
             "webdriver.ie.driver": ""
         }
     },
@@ -33,6 +34,7 @@
                 "enabled": true,
                 "path": "screenshots"
             },
+        "chrome":{
             "desiredCapabilities": {
                 "browserName": "chrome",
                 "javascriptEnabled": false,
