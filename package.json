@@ -2,7 +2,7 @@
   "author": "LoginRadius QA",
   "license": "MIT",
   "name": "idx-auto-tester",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "This inlcude the automation script for basic functionality which is available on loginradius identity-experience-framework",
   "main": "test",
   "directories": {
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "chromedriver": "2.43.0",
+    "geckodriver": "1.20.0",
     "selenium-server-standalone-jar": "3.13.0"
   }
 }

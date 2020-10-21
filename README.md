@@ -52,6 +52,7 @@ The automation scripts will be continuously improved by adding more test cases w
 Now you are able to run scripts on your implementation of Loginradius Identity Experience.
 - Command to run all tests at once `node nightwatch.js test`
 - Command to run a single file `node nightwatch.js test\<filename>.js`
+- Command to run tests on specific test environment `node nightwatch.js test\<filename>.js --env {chrome\firefox}`
 - If you have installed Nightwatch globally (with -g option), the binary nightwatch will be available anywhere and test can be run by directly using nightwatch as a test runner `nightwatch test\<filename.js>`
 - An executable Batch file is also added with named as `executable.bat` which can be run with a double-click, and written command will be executed and HTML output report will be generated.
 
